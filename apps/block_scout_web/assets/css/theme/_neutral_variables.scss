@@ -1,0 +1,81 @@
+// general
+$primary: #1e2c3a;
+$secondary: #2f8b64;
+$tertiary: #00ffd4;
+$additional-font: #fff;
+
+// Logo Size
+$navbar-logo-height: 22px;
+
+// footer
+$footer-background-color: #1e2c3a;
+$footer-title-color: #fff;
+$footer-text-color: #a0a0a0;
+$footer-item-disc-color: $tertiary;
+.footer-logo { filter: brightness(0) invert(1); }
+
+// dashboard
+$dashboard-line-color-price: $tertiary;
+
+$dashboard-banner-chart-legend-label-color: #a0a0a0;
+$dashboard-stats-item-label-color: $dashboard-banner-chart-legend-label-color;
+$dashboard-banner-chart-legend-value-color: #fff;
+$dashboard-stats-item-value-color: #fff;
+
+$dashboard-stats-item-border-color: $tertiary;
+
+$dashboard-banner-gradient-start: #1e2c3a;
+$dashboard-banner-gradient-end: #263748;
+
+$dashboard-banner-network-plain-container-background-color: #2f8b64;
+
+// navigation
+.navbar { box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
+$dropdown-menu-item-hover-color: $tertiary;
+$dropdown-menu-item-hover-background: rgba($tertiary, .1);
+$header-icon-color-hover: $tertiary;
+$header-icon-border-color-hover: $tertiary;
+
+// buttons
+$btn-line-bg: #2f8b64;
+$btn-line-color: #fff;
+$btn-copy-color: $tertiary;
+$btn-qr-color: $tertiary;
+$btn-address-card-icon-color: $tertiary;
+
+//links & tile
+$tile-body-a-color: $tertiary;
+$tile-type-block-color: $tertiary;
+$tile-type-progress-bar-color: $tertiary;
+a.tile-title { color: $tertiary !important; }
+
+// card
+$card-background-1: $primary;
+$card-tab-active: $tertiary;
+
+.layout-container {
+  .dashboard-banner-container {
+    background-image: linear-gradient(
+      to bottom,
+      $dashboard-banner-gradient-start,
+      $dashboard-banner-gradient-end
+    );
+  }
+}
+
+// Badges
+$badge-neutral-color: $tertiary;
+$badge-neutral-background-color: rgba($tertiary, .1);
+$api-text-monospace-color: $tertiary;
+
+// Tokens dropdown
+.token-balance-dropdown[aria-labelledby="dropdown-tokens"] {
+  .dropdown-items .dropdown-item:hover {
+    color: $tertiary !important;
+  }
+}
+
+// Dark theme
+$dark-primary: #00ffd4;
+$dark-secondary: #2f8b64;
+$dark-primary-alternate: #00ccaa;
