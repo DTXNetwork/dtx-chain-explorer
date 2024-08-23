@@ -1,11 +1,15 @@
-$body-dark: #22223a; // body background
-$dark-bg: #22223a; // hero shade
-$dark-light-bg: #145317; // pills bg shade
-$dark-light: #313355; // tile light top share
-$labels-dark: #8a8dba; // header nav, labels
-$dark-stakes-banned-background: #3e314c;
-$dashboard-banner-network-stats-item-before-background-color-dark-mode: $dark-secondary !default;
-$header-links-background-color-dark-mode: $dark-light !default;
+$body-dark: #121212;
+$dark-bg: #1E1E1E;
+$dark-light-bg: #2C2C2C;
+$dark-light: #383838;
+$labels-dark: #B0B0B0;
+$dark-primary: #BB86FC;
+$dark-secondary: #03DAC6;
+$dark-error: #CF6679;
+
+$dark-stakes-banned-background: #3E314C;
+$dashboard-banner-network-stats-item-before-background-color-dark-mode: $dark-secondary;
+$header-links-background-color-dark-mode: $dark-light;
 
 // Switcher
 .dark-mode-changer {

@@ -35,6 +35,17 @@
         <!-- age -->
         <span data-test="data-from-now" data-from-now="<%= @block.timestamp %>"></span>
       </div>
+      <%= if !Application.get_env(:block_scout_web, :hide_block_miner) do %>
+        <div class="text-nowrap text-truncate mt-3 mt-md-0">
+          <!-- validator -->
+          <%= gettext "Miner" %>
+          <%= render BlockScoutWeb.AddressView,
+            "_link.html",
+            address: @block.miner,
+            contract: false,
+            use_custom_tooltip: false %>
+        </div>
+      <% end %>
       <%= if show_reward?(@block.rewards) do %>
         <div class="text-nowrap text-truncate mt-3 mt-md-0">
           <!-- validator reward -->
