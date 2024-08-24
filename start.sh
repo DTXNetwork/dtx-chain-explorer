@@ -1,10 +1,11 @@
+export SHOW_TESTNET_LABEL=true
 export COIN_NAME=DTX
 export NETWORK=DTX
 export SUBNETWORK=Testnet
 export ETHEREUM_JSONRPC_VARIANT=geth
 export LINK_TO_OTHER_EXPLORERS=false
 export COIN=DTX
-export LOGO=/images/blockscout_logo.svg
+export LOGO=/images/dtxscan.svg
 export HIDE_BLOCK_MINER=true
 export CHAIN_ID=909091
 
