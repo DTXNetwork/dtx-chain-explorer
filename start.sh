@@ -29,9 +29,8 @@ export API_V2_ENABLED=true
 export MIX_ENV=prod
 export DATABASE_URL=postgresql://nlg:nlg@localhost:5432/blockscout?ssl=false
 export MICROSERVICE_SC_VERIFIER_ENABLED=true
-#export MICROSERVICE_SC_VERIFIER_URL=http://216.155.135.137:8050
 export BLOCKSCOUT_PROTOCOL=http
-export BLOCKSCOUT_HOST=91.208.92.6
+export BLOCKSCOUT_HOST=
 export SECRET_KEY_BASE=zUBYvm+qX1mPn84BElO/tX1ydzMU3VV8DCMR1JqakNkq6hbY+FS/TU/X4XoJbVYE
 mix compile
 
