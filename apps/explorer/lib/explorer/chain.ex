@@ -4998,6 +4998,10 @@ defmodule Explorer.Chain do
 
         "100" ->
           "xdai"
+        "909090" ->
+          "dtx"
+        "909091" ->
+          "tdtx"
 
         _ ->
           nil
@@ -5005,7 +5009,7 @@ defmodule Explorer.Chain do
 
     if chain_name do
       try_url =
-        "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/#{chain_name}/assets/#{address_hash}/logo.png"
+        "https://raw.githubusercontent.com/nnlgsakib/assets/master/blockchains/#{chain_name}/assets/#{address_hash}/logo.png"
 
       try_url
     else
