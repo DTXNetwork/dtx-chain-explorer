@@ -10,12 +10,18 @@ function getTokenIconUrl (chainID, addressHash) {
     case '100':
       chainName = 'xdai'
       break
+      case '909091':
+        chainName = 'tdtx'
+        break  
+        case '909090':
+          chainName = 'dtx'
+          break  
     default:
       chainName = null
       break
   }
   if (chainName) {
-    return `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/${chainName}/assets/${addressHash}/logo.png`
+    return `https://raw.githubusercontent.com/nnlgsakib/assets/master/blockchains/${chainName}/assets/${addressHash}/logo.png`
   } else {
     return '/images/icons/token_icon_default.svg'
   }
