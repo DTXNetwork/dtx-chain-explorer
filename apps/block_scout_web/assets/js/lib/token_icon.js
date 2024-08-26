@@ -23,7 +23,7 @@ function getTokenIconUrl (chainID, addressHash) {
   if (chainName) {
     return `https://raw.githubusercontent.com/nnlgsakib/assets/master/blockchains/${chainName}/assets/${addressHash}/logo.png`
   } else {
-    return '/images/icons/token_icon_default.svg'
+    return '/images/icons/tk.svg'
   }
 }
 
