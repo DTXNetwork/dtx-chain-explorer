@@ -1,33 +1,33 @@
 // general
-$primary: #1e2c3a;
-$secondary: #2f8b64;
-$tertiary: #00ffd4;
-$additional-font: #fff;
+$primary: #202634; // Adjusted from #1e2c3a for a closer match
+$secondary: #48669a; // Adjusted from #2f8b64 for a closer match
+$tertiary: #48669a; // Adjusted from #00ffd4 for a closer match
+$additional-font: #e1e8f0; // Adjusted from #fff for a closer match
 
 // Logo Size
 $navbar-logo-height: 70px;
 
 // footer
-$footer-background-color: #1e2c3a;
-$footer-title-color: #fff;
-$footer-text-color: #a0a0a0;
+$footer-background-color: $primary;
+$footer-title-color: $additional-font;
+$footer-text-color: #b3b9c7; // Slightly lighter than the image
 $footer-item-disc-color: $tertiary;
 .footer-logo { filter: brightness(0) invert(1); }
 
 // dashboard
 $dashboard-line-color-price: $tertiary;
 
-$dashboard-banner-chart-legend-label-color: #a0a0a0;
+$dashboard-banner-chart-legend-label-color: $footer-text-color;
 $dashboard-stats-item-label-color: $dashboard-banner-chart-legend-label-color;
-$dashboard-banner-chart-legend-value-color: #fff;
-$dashboard-stats-item-value-color: #fff;
+$dashboard-banner-chart-legend-value-color: $additional-font;
+$dashboard-stats-item-value-color: $additional-font;
 
 $dashboard-stats-item-border-color: $tertiary;
 
-$dashboard-banner-gradient-start: #1e2c3a;
-$dashboard-banner-gradient-end: #263748;
+$dashboard-banner-gradient-start: $primary;
+$dashboard-banner-gradient-end: #263b5e; // Adjusted from #263748 for a closer match
 
-$dashboard-banner-network-plain-container-background-color: #2f8b64;
+$dashboard-banner-network-plain-container-background-color: $secondary;
 
 // navigation
 .navbar { box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
@@ -37,8 +37,8 @@ $header-icon-color-hover: $tertiary;
 $header-icon-border-color-hover: $tertiary;
 
 // buttons
-$btn-line-bg: #2f8b64;
-$btn-line-color: #fff;
+$btn-line-bg: $secondary;
+$btn-line-color: $additional-font;
 $btn-copy-color: $tertiary;
 $btn-qr-color: $tertiary;
 $btn-address-card-icon-color: $tertiary;
@@ -76,6 +76,6 @@ $api-text-monospace-color: $tertiary;
 }
 
 // Dark theme
-$dark-primary: #00ffd4;
-$dark-secondary: #2f8b64;
-$dark-primary-alternate: #00ccaa;
+$dark-primary: #06d6f9; // Updated from #00ffd4
+$dark-secondary: #48669a; // Updated from #2f8b64
+$dark-primary-alternate: #00aac6; // Adjusted from #00ccaa
